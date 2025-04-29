@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 from datetime import datetime
 
-URL = "https://yalla-shoot-hd.com/"
+URL = "https://www.ysscores.com/ar/index"
 response = requests.get(URL)
 soup = BeautifulSoup(response.text, 'html.parser')
 
